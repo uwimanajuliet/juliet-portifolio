@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+
 import PortPhoto from "./assets/port.jpg";
 
 export default function App() {
@@ -73,7 +74,7 @@ export default function App() {
         <img
     src={PortPhoto}
     alt="UWIMANA Juliet"
-    className="w-40 h-40 md:w-40 md:h-50 rounded-full mb-5 md:mb-0 md:mr-6 border-6 border-indigo-500"
+    className="w-40 h-40 md:w-40 md:h-52 rounded-full mb-5 md:mb-0 md:mr-6 border-6 border-indigo-500"
   />
         <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight">
           Hi, I'm{" "}
